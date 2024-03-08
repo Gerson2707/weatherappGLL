@@ -1,0 +1,43 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../public/background.jpg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.header__search {
+  padding: 20px; /* Ajusta según sea necesario */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Puedes agregar estilos adicionales según tus necesidades */
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;/* Fondo oscuro */
+  color: #ffffff; /* Texto blanco */
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+
+.author {
+  margin-right: 10px;
+}
+
+.logo {
+  width: 50px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto; /* Para mantener la proporción original de la imagen */
+}
